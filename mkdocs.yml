@@ -1,0 +1,31 @@
+site_name: Guide utilisateur
+nav:
+    - Bienvenue: index.md
+    - Introduction: what_is.md
+    - Démarrer:
+      - Découvrir des indicateurs: gs/web.md
+      - Suivre des indicateurs: gs/excel.md
+      - Accéder aux indicateurs: gs/excel.md
+    - Reference:
+      - Web: reference/web.md
+      - Excel: reference/excel.md
+      - REST API: reference/api_rest.md
+theme:
+  name: material
+  palette:
+    primary: white
+    secondary: black
+    accent: orange
+  logo: img/logo_statit_64.png
+  favicon: img/favicon.ico
+  features:
+    #- navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+    - navigation.instant
+    - navigation.tracking
+extra:
+  generator: false #this should remove the Made with Material at the bottom - not working
+  homepage: https://gostatit.com
+extra_css:
+  - stylesheets/extra.css

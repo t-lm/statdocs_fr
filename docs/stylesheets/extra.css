@@ -1,0 +1,17 @@
+/* font */
+body {
+  font-family: Helvetica Neue, sans-serif, -apple-system, BlinkMacSystemFont;
+}
+
+/* colors */
+:root > * {
+  --md-typeset-a-color: #00BCD5;
+}
+
+a {
+  font-size: 20;
+}
+
+h1 {
+  font-size: 60;
+}
