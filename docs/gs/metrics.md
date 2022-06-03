@@ -1,22 +1,35 @@
-# Get started on the Web
+# Les indicateurs
 
-Statit can be used fully in the browser.
+Continuons la navigation dans la collection [xrate/daily](https://www.gostatit.com/xrate/daily).
 
-This section explains **how to start using Statit with a web browser**. <!--For the documentation regarding creating workspace and publishing metrics, please head over to the [**web reference**](/reference/web.md).--> Before continuing, **please sign-in to your account or create one [here](https://gostatit.com/sign)**.
+Cliquez sur l'onglet [INDICATEURS](https://www.gostatit.com/xrate/daily?tab=metrics)
 
+## **Navigation**
 
-## **Metrics**
+Sur Statit, les indicateurs sont organisés comme des fichiers sur un ordinateur. Pour trouver l'indicateur qui vous intéresse, il faut donc naviguer comme sur un ordinateur en cliquant sur les répertoires (un seul clic).
 
-A **metric is a number of measurements over time**.
+Vous pouvez désormais voir:
 
-**Every metric on Statit is defined with its own "name" or identifier**. Metrics identifiers are similar to file identifiers on a computer such as [xrate/weekly/eur/chf](https://www.gostatit.com/xrate/weekly/eur/chf).
+![xrate/daily](/img/user-fr_gs_org_2.png){: style="width:700px;padding: 50px"}
 
-Let's have a look at [the weekly Euro-Swiss Franc exchange rates](https://www.gostatit.com/xrate/weekly/eur/chf). Click on the link to reach the page of the metric.
+Il y a trois répertoires contenant:
 
-The metric is described by its name, unit, sources, start date, end date, a description and finally its observations presented as a line chart.
+- eur - l'ensemble des taux de change internationaux par rapport à l'Euro
+- gbp - l'ensemble des taux de change internationaux par rapport à la Livre britannique (gbp correspond à Great British Pound)
+- usd - l'ensemble des taux de change internationaux par rapport au Dollar américain (usd correspond à United States Dollar)
 
-![Metric](/img/gs_web_metric.png)
+Cliquez maintenant sur [eur](https://www.gostatit.com/xrate/daily/eur). Vous voyez maintenant apparaître une liste d'indicateurs avec un petit graphique devant. Vous y êtes presque.
 
+![xrate/daily/eur](/img/user-fr_gs_org_3.png){: style="width:700px;padding: 50px"}
+
+Les indicateurs sont nommés avec des codes en trois lettres comme "aud" ou "brl". Ces identifiants s'appuient en fait sur une norme internationale utilisée pour les monnaies: la [norme ISO 4217](https://fr.wikipedia.org/wiki/ISO_4217):
+
+- "aud" est le Dollar australien (Australian Dollad)
+- "brl" est le réal brésilien (Brazilian Real)...
+
+Cliquez sur [cny](https://www.gostatit.com/xrate/daily/eur/cny). C'est le Yuan chinois. Enfin, on y est, vous pouvez visualiser l'indicateur de taux de change entre l'Euro et le Yuan.
+
+![xrate/daily](/img/user-fr_gs_org_4.png){: style="width:700px;padding: 50px"}
 
 ### **Research**
 
@@ -35,17 +48,6 @@ You might need to work with this metric to compare it with other long-term trend
 
 Click on the download icon on the right hand side and select the format you are interested in.
 
-
-### **Favorites**
-
-If you would like to save the metric to access it directly in your home page, click on the heart on the top right of the screen.
-
-
-## **Charts**
-
-Collections can store as well charts using the metrics.
-
-Click on the ["asia-pac" charts](https://www.gostatit.com/i/xrate/daily/asia-pac) to visualise regional exchange rate dashboards
 
 
 ## **Next steps**

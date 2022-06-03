@@ -1,25 +1,60 @@
-# Get started on the Web
+# Les espaces et les collections
 
-Statit can be used fully in the browser.
+## **Espaces de travail**
 
-This section explains **how to start using Statit with a web browser**. <!--For the documentation regarding creating workspace and publishing metrics, please head over to the [**web reference**](/reference/web.md).--> Before continuing, **please sign-in to your account or create one [here](https://gostatit.com/sign)**.
+Statit permet aux équipes et organisations de stocker et de partager leurs indicateurs avec leurs membres dans des espaces de travail.
 
+Sur Statit, **la plupart des espaces sont privés** uniquement accessibles aux membres. Néanmoins, il existe un certain nombre d'espaces publics contenant des indicateurs de référence pour tous.
 
-## **Workspaces**
+Vous pouvez voir quelques espaces "publics" ci-dessous:
 
-**Teams and organisations create workspaces to manage and share their metrics.**  In the following example, we will access the "[**xrate**](https://www.gostatit.com/xrare)" **workspace**. This workspace covers **exchange rates** metrics.
+- [Taux de change internationaux](https://www.gostatit.com/xrate)
+- [Indicateurs sur les marchés agricoles européens](https://www.gostatit.com/eu-agri)
+- [Suivi des températures et précipitations européennes](https://www.gostatit.com/clim)
+- Et tous les indicateurs publics [ici](https://www.gostatit.com/public)
 
-Whilst most workspaces are private, with an access limited inside teams and organisations, a certain number of workspaces are "public". These "public" workspaces are maintained by Statit or partners and distribute public statistics.
+En haut de l'espace de travail, vous trouverez une présentation brève de ce que l'espace contient et à qui il s'adresse.
+
+![Espace de travail](/img/user-fr_gs_org_0.png){: style="width:700px;padding: 50px"}
+
+Dans les espaces ci-dessus, vous pouvez noter que les espaces sont notés comme publics.
 
 
 ## **Collections**
 
-Inside workspaces, metrics are organised in collections.
+### Rôle
 
-Collections are defined by subject or source of data. Below, we will start working with the "**xrate/weekly**" collection that includes all **weekly exchange rate metrics**.
+A l'intérieur des espaces de travail, les indicateurs sont organisés en collections.
 
-Here is the link to the collection of [weekly exchange rate metrics](https://www.gostatit.com/xrate/weekly) that includes the metric we have looked at before. Click on the "About" tab for a description of the collection.
+Les collections contiennent des indicateurs de même nature. Ce sont soit des indicateurs qui proviennent d'une même source, soit des indicateurs qui traitent du même sujet. Les collections peuvent aussi contenir des graphiques et tableaux de bord (plusieurs graphiques).
 
-You can then browse the metrics in the collection. Metrics are presented like files in a folder. Navigate to the bottom of the folder to view any metric.
+Dans tous les espaces, certaines collections sont publiques accessibles à tous les membres, d'autres sont privées, accessibles uniquement aux membres autorisés.
 
-![Collection](/img/gs_web_collection.png)
+Voilà plusieurs liens vers les collections de l'espace [xrate](https://www.gostatit.com/xrate) vu ci-dessus:
+
+- [Taux de change quotidiens](https://www.gostatit.com/xrate/daily)
+- [Taux de change hebdomadaires](https://www.gostatit.com/xrate/weekly)
+- [Taux de change mensuels](https://www.gostatit.com/xrate/monthly)
+
+### Présentation
+
+Regardons plus en détail la première collection en cliquant sur le premier lien:
+
+![Collection](/img/user-fr_gs_org_1.png){: style="width:700px;padding: 50px"}
+
+Juste en dessous du nom de l'espace tout en haut "xrate" se trouve l'identifiant de la collection en gris "xrate/daily". Cet identifiant ou ce code est utile car nous l'utiliserons toujours pour référencer la collection.
+
+Cliquer sur ces liens gris en haut à gauche nous permettra toujours sur Statit de naviguer au sein de l'espace, des collections et plus tard de trouver les indicateurs.
+
+Ensuite vous trouverez le nom de la collection. Passons sur les autres informations pour l'instant et concentrons-nous sur les onglets un peu en dessous.
+
+### Sections
+
+Une collection contient toujours trois ou quatre sections:
+
+- Description - là où est décrite la collection - son objectif, ce qu'elle contient, comment l'utiliser
+- Indicateurs - là où sont stockés les indicateurs - organisés comme des fichiers sur un ordinateur
+- Graphiques - c'est là que dans certaines collections vous pourrez trouver des graphiques et des tableaux de bord créés par l'auteur de la collection
+- Questions - là où les visiteurs peuvent poser des questions sur la collection
+
+Naviguons maintenant pour voir les [indicateurs](metrics.md) de cette collection
