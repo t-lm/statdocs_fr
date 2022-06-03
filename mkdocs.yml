@@ -1,12 +1,15 @@
 site_name: Guide utilisateur
 nav:
     - Bienvenue: index.md
-    - Introduction: what_is.md
-    - Démarrer:
+    - Accéder aux indicateurs:
+      - Les collections: gs/web.md
+      - Les indicateurs: gs/excel.md
+      - Les tableaux et graphiques: gs/excel.md
+    - Partager des indicateurs:
       - Découvrir des indicateurs: gs/web.md
       - Suivre des indicateurs: gs/excel.md
       - Accéder aux indicateurs: gs/excel.md
-    - Reference:
+    - Documentation:
       - Web: reference/web.md
       - Excel: reference/excel.md
       - REST API: reference/api_rest.md
