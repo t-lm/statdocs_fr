@@ -2,14 +2,16 @@
 
 Bonjour, bienvenue sur le **guide utilisateur** de Statit 😀.
 
-Notre objectif est de **permettre à toutes les équipes ou communautés de partager facilement leurs indicateurs importants**. Ce guide est organisé en trois parties:
+Statit est un **outil de pilotage nouveau** 💪 qui permet à chacun et chacune dans une organisation d'**accéder directement aux indicateurs importants pour eux**.
 
-* Pour **comprendre ce qu'est Statit**, allez dans l'[introduction](what_is.md)
-* Pour **commencer à utiliser Statit** simplement sur Internet, rendez-vous [ici](gs/web.md)
-* Finalement, pour **découvrir toutes les fonctionnalités**, visitez la [référence](reference/web.md)
+Le guide est organisé en **trois parties**:
 
-Merci d'utiliser Statit et **bon démarrage** avec l'outil.
+* [**Démarrer**](gs/access.md) vous aidera à comprendre les basiques de l'outil et de la consultation d'indicateurs et de graphiques - c'est une partie pour tous
+* [**Suivre les indicateurs**](gs/publish.md) vous expliquera comment suivre des indicateurs et graphiques et organiser votre propre espace
+* [**Utiliser Statit dans Excel**](excel/index.md) vous expliquera comment utiliser Statit directement dans Excel
 
-N'hésitez pas à [**nous écrire**](mailto:hi@gostatit.com) pour toute question ou retour.
+**Bon démarrage** avec Statit. Nous espérons que la consultation d'indicateurs va devenir un jeu d'enfant pour vous.
+
+N'hésitez pas à [**nous écrire**](mailto:hi@gostatit.com) pour toute question ou remarque.
 
 A bientôt ✌️

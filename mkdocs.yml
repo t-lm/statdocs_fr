@@ -1,18 +1,17 @@
 site_name: Guide utilisateur
 nav:
     - Bienvenue: index.md
-    - Accéder aux indicateurs:
-      - Les collections: gs/web.md
-      - Les indicateurs: gs/excel.md
-      - Les tableaux et graphiques: gs/excel.md
-    - Partager des indicateurs:
-      - Découvrir des indicateurs: gs/web.md
-      - Suivre des indicateurs: gs/excel.md
-      - Accéder aux indicateurs: gs/excel.md
-    - Documentation:
-      - Web: reference/web.md
-      - Excel: reference/excel.md
-      - REST API: reference/api_rest.md
+    - Démarrer:
+      - Les espaces & collections: gs/org.md
+      - Les indicateurs: gs/metrics.md
+      - Les tableaux et graphiques: gs/charts.md
+    - Suivre les indicateurs:
+      - Favoris & alertes: favs/favs.md
+      - Tableaux de bord: favs/dashboard.md
+    - Utiliser Statit dans Excel:
+      - Introduction: excel/index.md
+      - Installer le complément Excel: excel/installation.md
+      - Consulter des indicateurs: excel/consultation.md
 theme:
   name: material
   palette:
@@ -21,6 +20,7 @@ theme:
     accent: orange
   logo: img/logo_statit_64.png
   favicon: img/favicon.ico
+  language: fr
   features:
     #- navigation.tabs
     - navigation.indexes

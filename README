@@ -1,0 +1,18 @@
+run local:
+- mkdocs serve
+
+build:
+- mkdocs build
+
+deploy to github (this is immediate):
+- mkdocs gh-deploy
+
+theme:
+- material
+- https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+- styling, navigation ...
+
+routing:
+- site by default published on github pages: t-lm.github.io
+- rerouting to an url is possible with dns record needs to be saved on route53: help_en.gostatit.com
+- i don't think international routing works very well with mkdocs/ github pages

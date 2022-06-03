@@ -14,7 +14,7 @@
     
     
       
-        <title>Get Started with the REST API - Guide utilisateur</title>
+        <title>Les indicateurs - Guide utilisateur</title>
       
     
     
@@ -67,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#get-started-with-the-rest-api" class="md-skip">
+        <a href="#get-started-on-the-web" class="md-skip">
           Aller au contenu
         </a>
       
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Get Started with the REST API
+              Les indicateurs
             
           </span>
         </div>
@@ -188,14 +188,16 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       <label class="md-nav__link" for="__nav_2">
         Démarrer
@@ -223,11 +225,92 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../metrics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Les indicateurs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Les indicateurs
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metrics" class="md-nav__link">
+    Metrics
+  </a>
+  
+    <nav class="md-nav" aria-label="Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research" class="md-nav__link">
+    Research
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    Download
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#favorites" class="md-nav__link">
+    Favorites
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#charts" class="md-nav__link">
+    Charts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    Next steps
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -400,44 +483,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#set-up-and-basic-concepts" class="md-nav__link">
-    Set-up and basic concepts
+  <a href="#metrics" class="md-nav__link">
+    Metrics
   </a>
   
-    <nav class="md-nav" aria-label="Set-up and basic concepts">
+    <nav class="md-nav" aria-label="Metrics">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#api-format" class="md-nav__link">
-    API format
+  <a href="#research" class="md-nav__link">
+    Research
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#end-point" class="md-nav__link">
-    End-point
+  <a href="#download" class="md-nav__link">
+    Download
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#authentication" class="md-nav__link">
-    Authentication
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#actions" class="md-nav__link">
-    Actions
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#errors" class="md-nav__link">
-    Errors
+  <a href="#favorites" class="md-nav__link">
+    Favorites
   </a>
   
 </li>
@@ -448,62 +517,16 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#accessing-metrics" class="md-nav__link">
-    Accessing metrics
-  </a>
-  
-    <nav class="md-nav" aria-label="Accessing metrics">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#getting-a-single-metric" class="md-nav__link">
-    Getting a single metric
-  </a>
-  
-    <nav class="md-nav" aria-label="Getting a single metric">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example" class="md-nav__link">
-    Example
+  <a href="#charts" class="md-nav__link">
+    Charts
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#listing-metrics" class="md-nav__link">
-    Listing metrics
-  </a>
-  
-    <nav class="md-nav" aria-label="Listing metrics">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#example_1" class="md-nav__link">
-    Example
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#next-steps" class="md-nav__link">
     Next steps
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -520,179 +543,31 @@
               
                 
                 
-                <h1 id="get-started-with-the-rest-api">Get Started with the REST API</h1>
-<p>Statit can be used fully with a REST API.</p>
-<p>Make sure you have read <a href="/gs/web.md"><strong>getting started with Statit on the web</strong></a> to understand the basics of how Statit works.</p>
-<p>This section explains <strong>how to start using Statit with the REST API</strong>. For the complete documentation covering the REST API, please head over to the <a href="/reference/api_rest.md"><strong>REST API reference</strong></a>.</p>
-<h2 id="set-up-and-basic-concepts"><strong>Set-up and basic concepts</strong></h2>
-<h3 id="api-format">API format</h3>
-<p>The API accepts <strong>HTTP GET and POST requests</strong>.</p>
-<p>All examples are presented with 'curl'. You can of course complete requests in any language.</p>
-<h3 id="end-point">End-point</h3>
-<p>All requests must be addressed to: <strong>https://api.gostatit.com/core</strong>.</p>
-<p>Core stands for the core API.</p>
-<pre><code class="language-bash">### request
-
-curl https://api.gostatit.com/core
-
-### response
-
-{
-  &quot;message&quot;: &quot;Welcome on Statit core API&quot;
-}
-
-</code></pre>
-<h3 id="authentication">Authentication</h3>
-<p>Your <strong>requests must be identified with your credentials</strong>: your username and API Key.</p>
-<p>Your <strong>username</strong> and <strong>API key</strong> can be found in the <strong>account section</strong> in the home page for your profile.</p>
-<p>The API uses <strong>basic Http authentication</strong>. On the command line, it looks like</p>
-<pre><code class="language-bash">### request
-
-curl  -X POST \
-      -u username:apikey \
-      https://api.gostatit.com/core
-
-### response
-
-{
-  &quot;code&quot;: &quot;ERROR_PARAM_REQUIRED&quot;, ...
-}
-</code></pre>
-<h3 id="actions">Actions</h3>
-<p>Once you are authentified, you can call specific actions: getSerie, getCollection, putSerie ...</p>
-<p>You will do this by adding a json object to the query specifying the action called and the required inputs for the action.</p>
-<pre><code class="language-bash">### request
-
-curl -X POST \
-    -H &quot;Content-Type: application/json&quot; \
-    -d '{&quot;action&quot;: &quot;getSerie&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;xrate/weekly/eur/chf&quot;}}' \
-    -u username:apikey \
-    https://api.gostatit.com/core
-
-### response
-
-{
-  &quot;Item&quot;: {
-  &quot;unit&quot;: &quot;Swiss Franc&quot;,
-  ...
-  }
-}
-
-</code></pre>
-<p>In the request above, we call the 'getSerie' action to get a single metric and pass a parameter called input with the 'id' of the metric we are requiring.</p>
-<p>If you would like to learn the basics about metric identifiers, please head over to <a href="/gs/web.md">Getting started on the web</a>.</p>
-<h3 id="errors">Errors</h3>
-<p>If your request can not be processed, the API will return an error code with an error message.</p>
-<pre><code class="language-bash">### request
-
-curl -X POST \
-    -u username:apikey \
-    -H &quot;Content-Type: application/json&quot; \
-    -d '{&quot;action&quot;: &quot;getSerie&quot; }' \
-    https://api.gostatit.com/core
-
-### response
-
-{
-  &quot;code&quot;: &quot;ERROR_PARAM_REQUIRED&quot;,
-  &quot;message&quot;: &quot;Error. Your request is missing a required parameter. Please check the documentation&quot;
-}
-
-</code></pre>
-<h2 id="accessing-metrics"><strong>Accessing metrics</strong></h2>
-<h3 id="getting-a-single-metric">Getting a single metric</h3>
-<p>We have already explored this in the example above.</p>
-<h4 id="example">Example</h4>
-<pre><code class="language-bash">### request
-
-curl -X POST \
-    -H &quot;Content-Type: application/json&quot; \
-    -d '{&quot;action&quot;: &quot;getSerie&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;xrate/weekly/eur/chf&quot;}}' \
-    -u username:apikey \
-    https://api.gostatit.com/core
-
-### response
-
-{
-  &quot;Item&quot;: {
-    &quot;unit&quot;: &quot;Swiss Franc&quot;,
-    &quot;frequency&quot;: &quot;W&quot;,
-    &quot;sources&quot;: &quot;ECB (European Central Bank)&quot;,
-    &quot;name&quot;: &quot;Swiss Franc for 1 EUR&quot;,
-    &quot;updated&quot;: &quot;2021-07-19T14:55:54.320Z&quot;,
-    &quot;notes&quot;: &quot;&quot;,
-    &quot;observations&quot;: [
-      [
-        &quot;2009-01-12&quot;,
-        1.5004600000000001
-      ],
-      [
-        &quot;2009-01-19&quot;,
-        1.48424
-      ],
-      [
-        &quot;2009-01-26&quot;,
-        1.4874800000000001
-      ],
-      [
-        &quot;2009-02-02&quot;,
-        1.5029
-      ] ...
-    ]
-  }
-}
-</code></pre>
-<p>The Item object is quite explicit. It contains both metric metadata and data. Note that observations is a stringified array. You can transform it into an array using JSON parsers.</p>
-<h3 id="listing-metrics">Listing metrics</h3>
-<p>The API let you request "children" metrics with a single parent.</p>
-<p>As an example, if you are looking to get all weekly euro exchange rates, you will call <a href="https://gostatit.com/xrate/weekly/eur">xrate/weekly/eur</a> and the request will return all related metrics.</p>
-<p>It is necessary to specify exactly the id of the parent. The size of the response is limited to 1MB.</p>
-<h4 id="example_1">Example</h4>
-<pre><code class="language-bash">### request
-
-curl -X POST \
-    -H &quot;Content-Type: application/json&quot; \
-    -d '{&quot;action&quot;: &quot;listSeries&quot;, &quot;input&quot;: {&quot;id&quot;: &quot;xrate/weekly/eur&quot;}}' \
-    -u username:apikey \
-    https://api.gostatit.com/core
-
-### response
-
-### response
-
-{
-  &quot;Items&quot;:
-    [{
-    &quot;unit&quot;: &quot;Swiss Franc&quot;,
-    &quot;frequency&quot;: &quot;W&quot;,
-    &quot;sources&quot;: &quot;ECB (European Central Bank)&quot;,
-    &quot;name&quot;: &quot;Swiss Franc for 1 EUR&quot;,
-    &quot;updated&quot;: &quot;2021-07-19T14:55:54.320Z&quot;,
-    &quot;notes&quot;: &quot;&quot;,
-    &quot;observations&quot;: [
-      [
-        &quot;2009-01-12&quot;,
-        1.5004600000000001
-      ],
-      [
-        &quot;2009-01-19&quot;,
-        1.48424
-      ],
-      [
-        &quot;2009-01-26&quot;,
-        1.4874800000000001
-      ],
-      [
-        &quot;2009-02-02&quot;,
-        1.5029
-      ] ...
-    ]
-  } ...
-  ]
-}
-</code></pre>
-<h3 id="next-steps"><strong>Next steps</strong></h3>
-<p>You have now learnt about the basics of the REST API to access metrics. To learn more, head over to the full <a href="/reference/api_rest.md">REST API reference</a></p>
+                <h1 id="get-started-on-the-web">Get started on the Web</h1>
+<p>Statit can be used fully in the browser.</p>
+<p>This section explains <strong>how to start using Statit with a web browser</strong>. <!--For the documentation regarding creating workspace and publishing metrics, please head over to the <a href="/reference/web.md">klzzwxh:0000</a>.--> Before continuing, <strong>please sign-in to your account or create one <a href="https://gostatit.com/sign">here</a></strong>.</p>
+<h2 id="metrics"><strong>Metrics</strong></h2>
+<p>A <strong>metric is a number of measurements over time</strong>.</p>
+<p><strong>Every metric on Statit is defined with its own "name" or identifier</strong>. Metrics identifiers are similar to file identifiers on a computer such as <a href="https://www.gostatit.com/xrate/weekly/eur/chf">xrate/weekly/eur/chf</a>.</p>
+<p>Let's have a look at <a href="https://www.gostatit.com/xrate/weekly/eur/chf">the weekly Euro-Swiss Franc exchange rates</a>. Click on the link to reach the page of the metric.</p>
+<p>The metric is described by its name, unit, sources, start date, end date, a description and finally its observations presented as a line chart.</p>
+<p><img alt="Metric" src="/img/gs_web_metric.png" /></p>
+<h3 id="research"><strong>Research</strong></h3>
+<p>You might want to zoom in on a specific time period or average observation values over time. You can do this from the metrics page.</p>
+<p>To select a specific time period, use the sliders below the chart. You can can place your mouse over the line to see the value of the observation.</p>
+<p>If you would like to see all values, press the grid on the top left hand side of the chart.</p>
+<p>If you want to aggregate or transform observations (for instance, look at a moving average), press the wheel on the top right hand side of the chart.</p>
+<h3 id="download"><strong>Download</strong></h3>
+<p>You might need to work with this metric to compare it with other long-term trends, transform it or present it in a chart.</p>
+<p>Click on the download icon on the right hand side and select the format you are interested in.</p>
+<h3 id="favorites"><strong>Favorites</strong></h3>
+<p>If you would like to save the metric to access it directly in your home page, click on the heart on the top right of the screen.</p>
+<h2 id="charts"><strong>Charts</strong></h2>
+<p>Collections can store as well charts using the metrics.</p>
+<p>Click on the <a href="https://www.gostatit.com/i/xrate/daily/asia-pac">"asia-pac" charts</a> to visualise regional exchange rate dashboards</p>
+<h2 id="next-steps"><strong>Next steps</strong></h2>
+<p>You have now learnt about the basics of Statit: its organisation and how to navigate collections.</p>
+<p>If you would like to access metrics in Excel, go <a href="/gs/excel.md">here</a></p>
                 
               
               
@@ -708,6 +583,41 @@ curl -X POST \
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../org/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Les espaces &amp; collections" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              Les espaces & collections
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../charts/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Les tableaux et graphiques" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              Les tableaux et graphiques
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
