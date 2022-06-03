@@ -14,7 +14,7 @@
     
     
       
-        <title>Bienvenue - Guide utilisateur</title>
+        <title>Favoris & alertes - Guide utilisateur</title>
       
     
     
@@ -66,11 +66,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#bienvenue" class="md-skip">
-          Aller au contenu
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -96,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Bienvenue
+              Favoris & alertes
             
           </span>
         </div>
@@ -256,14 +251,16 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       <label class="md-nav__link" for="__nav_3">
         Suivre les indicateurs
@@ -279,11 +276,19 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="favs.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Favoris & alertes
       </a>
+      
     </li>
   
 
@@ -293,7 +298,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dashboard.md" class="md-nav__link">
+      <a href="dashboard/" class="md-nav__link">
         Tableaux de bord
       </a>
     </li>
@@ -381,41 +386,15 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
                 
-                <h1 id="bienvenue">Bienvenue</h1>
-<p>Bonjour, bienvenue sur le <strong>guide utilisateur</strong> de Statit 😀.</p>
-<p>Statit est un <strong>outil de pilotage nouveau</strong> (💪) qui permet à chacun et chacune dans une organisation d'accéder directement aux indicateurs importants pour eux.</p>
-<p>Le guide est organisé en trois parties:</p>
-<ul>
-<li><a href="gs/access.md">Démarrer</a> vous aidera à comprendre les basiques de l'outil et de la consultation d'indicateurs et de graphiques - c'est une partie pour tous</li>
-<li><a href="gs/publish.md">Suivre les indicateurs</a> vous expliquera comment suivre des indicateurs et graphiques et organiser votre propre espace</li>
-<li><a href="excel/index.md">Utiliser Statit dans Excel</a> contient la documentation complète et vous permet de</li>
-</ul>
-<p>Merci d'utiliser Statit et <strong>bon démarrage</strong> avec l'outil.</p>
-<p>N'hésitez pas à <a href="mailto:hi@gostatit.com"><strong>nous écrire</strong></a> pour toute question ou retour.</p>
-<p>A bientôt ✌️</p>
+                  <h1>Favoris & alertes</h1>
+                
+                <p>Work in progress</p>
                 
               
               
@@ -431,6 +410,41 @@
       
         
 <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../gs/charts/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Les tableaux et graphiques" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              Les tableaux et graphiques
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="dashboard/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Tableaux de bord" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              Tableaux de bord
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
