@@ -1,19 +1,35 @@
-# Get started on the Web
+# Les tableaux et graphiques
 
-Statit can be used fully in the browser.
+Les collections contiennent également des tableaux et des graphiques.
 
-This section explains **how to start using Statit with a web browser**. <!--For the documentation regarding creating workspace and publishing metrics, please head over to the [**web reference**](/reference/web.md).--> Before continuing, **please sign-in to your account or create one [here](https://gostatit.com/sign)**.
+Les tableaux, pour tableaux de bord, rassemblent plusieurs graphiques au même endroit.
+
+Retournez sur la page d'accueil de la collection [xrate/daily](https://www.gostatit.com/xrate/daily) et cliquez sur l'onglet [GRAPHIQUES](https://www.gostatit.com/xrate/daily?tab=charts).
+
+Vous verrez plusieurs tableaux de bord qui s'affichent: americas, asia-pac et emea. Ce sont les noms de tableaux régionaux qui rassemblent plusieurs taux de change de pays de ces régions.
+
+Cliquez sur le tableau [asia-pac](https://www.gostatit.com/i/xrate/daily/asia-pac).
+
+## Le tableau
+
+Le tableau est composé d'un résumé au début et de plusieurs graphiques dans l'ordre. Sur ce tableau, vous verrez un résumé des principales tendances sur les taux de change de la zone Asie et les principaux graphiques de la zone.
+
+![xrate/daily](/img/user-fr_gs_charts_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+
+Ce tableau de bord et mis à jour quotidiennement par Statit.
 
 
-## **Charts**
+## Le graphique
 
-Collections can store as well charts using the metrics.
+En haut à droite, vous pouvez cliquer sur les trois points pour télécharger le graphique (image ou données). Vous aurez besoin de créer un compte pour faire cela.
 
-Click on the ["asia-pac" charts](https://www.gostatit.com/i/xrate/daily/asia-pac) to visualise regional exchange rate dashboards
+En bas du graphique, vous pouvez cliquer sur "Sources". Cela vous présentera les indicateurs utilisés pour construire le graphique
 
 
-## **Next steps**
+## Prochaines étapes
 
-You have now learnt about the basics of Statit: its organisation and how to navigate collections.
+Bravo, vous avez visualisé un indicateur et un tableau de bord au sein de l'espace public [xrate](https://www.gostatit.com/xrate) et de la collection [xrate/daily](https://www.gostatit.com/xrate/daily).
 
-If you would like to access metrics in Excel, go [here](/gs/excel.md)
+Vous pouvez maintenant visiter les autres espaces publics sur Statit [ici](https://www.gostatit.com/public).
+
+Sinon, dirigez-vous vers la section [Suivre les indicateurs](/favs/index.md) pour comprendre comment vous permettre de configurer votre espace.

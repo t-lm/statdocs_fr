@@ -16,3 +16,6 @@ routing:
 - site by default published on github pages: t-lm.github.io
 - rerouting to an url is possible with dns record needs to be saved on route53: help_en.gostatit.com
 - i don't think international routing works very well with mkdocs/ github pages
+
+issues:
+- finalise documentation: https://www.mkdocs.org/user-guide/configuration/

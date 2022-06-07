@@ -6,7 +6,7 @@ Statit est un **outil de pilotage nouveau** 💪 qui permet à chacun et chacune
 
 Le guide est organisé en **trois parties**:
 
-* [**Démarrer**](gs/org.md) vous aidera à comprendre les basiques de l'outil et de la consultation d'indicateurs et de graphiques - c'est une partie pour tous
+* [**Démarrer**](gs/index.md) vous aidera à comprendre les basiques de l'outil et de la consultation d'indicateurs et de graphiques - c'est une partie pour tous
 * [**Suivre les indicateurs**](favs/index.md) vous expliquera comment suivre des indicateurs et graphiques et organiser votre propre espace
 * [**Utiliser Statit dans Excel**](excel/index.md) vous expliquera comment utiliser Statit directement dans Excel
 

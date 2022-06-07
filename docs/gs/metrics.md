@@ -1,16 +1,14 @@
 # Les indicateurs
 
-Continuons la navigation dans la collection [xrate/daily](https://www.gostatit.com/xrate/daily).
+Continuons la navigation dans la collection [xrate/daily](https://www.gostatit.com/xrate/daily). Cliquez sur l'onglet [INDICATEURS](https://www.gostatit.com/xrate/daily?tab=metrics)
 
-Cliquez sur l'onglet [INDICATEURS](https://www.gostatit.com/xrate/daily?tab=metrics)
-
-## **Navigation**
+## Trouver les indicateurs
 
 Sur Statit, les indicateurs sont organisés comme des fichiers sur un ordinateur. Pour trouver l'indicateur qui vous intéresse, il faut donc naviguer comme sur un ordinateur en cliquant sur les répertoires (un seul clic).
 
 Vous pouvez désormais voir:
 
-![xrate/daily](/img/user-fr_gs_org_2.png){: style="width:700px;padding: 50px"}
+![xrate/daily](/img/user-fr_gs_metrics_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 Il y a trois répertoires contenant:
 
@@ -18,40 +16,52 @@ Il y a trois répertoires contenant:
 - gbp - l'ensemble des taux de change internationaux par rapport à la Livre britannique (gbp correspond à Great British Pound)
 - usd - l'ensemble des taux de change internationaux par rapport au Dollar américain (usd correspond à United States Dollar)
 
-Cliquez maintenant sur [eur](https://www.gostatit.com/xrate/daily/eur). Vous voyez maintenant apparaître une liste d'indicateurs avec un petit graphique devant. Vous y êtes presque.
+La logique de navigation dans la collection est en général expliquée dans la description de la collection.
 
-![xrate/daily/eur](/img/user-fr_gs_org_3.png){: style="width:700px;padding: 50px"}
+Cliquez maintenant sur [eur](https://www.gostatit.com/xrate/daily/eur). Vous voyez apparaître une liste d'indicateurs avec un petit graphique à barres devant. Ce symbole représente les indicateurs. Vous y êtes presque.
+
+![xrate/daily/eur](/img/user-fr_gs_metrics_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 Les indicateurs sont nommés avec des codes en trois lettres comme "aud" ou "brl". Ces identifiants s'appuient en fait sur une norme internationale utilisée pour les monnaies: la [norme ISO 4217](https://fr.wikipedia.org/wiki/ISO_4217):
 
-- "aud" est le Dollar australien (Australian Dollad)
+- "aud" est le dollar australien (Australian Dollad)
 - "brl" est le réal brésilien (Brazilian Real)...
 
 Cliquez sur [cny](https://www.gostatit.com/xrate/daily/eur/cny). C'est le Yuan chinois. Enfin, on y est, vous pouvez visualiser l'indicateur de taux de change entre l'Euro et le Yuan.
 
-![xrate/daily](/img/user-fr_gs_org_4.png){: style="width:700px;padding: 50px"}
+![xrate/daily](/img/user-fr_gs_metrics_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-### **Research**
+## Comprendre l'indicateur
 
-You might want to zoom in on a specific time period or average observation values over time. You can do this from the metrics page.
+L'indicateur est présenté avec plusieurs informations: d'abord son nom en haut, suivi d'une description éventuelle en-dessous.
 
-To select a specific time period, use the sliders below the chart. You can can place your mouse over the line to see the value of the observation.
+Enfin, vous pouvez voir sa fréquence, son unité, ses sources, ses dates de début et de fin et enfin la date de dernière mise à jour.
 
-If you would like to see all values, press the grid on the top left hand side of the chart.
+Vous pouvez cliquer sur les icônes graphiques juste au dessus du graphique pour soit obtenir une vue graphique avec des barres, soit obtenir une vue directe des chiffres.
 
-If you want to aggregate or transform observations (for instance, look at a moving average), press the wheel on the top right hand side of the chart.
+![xrate/daily](/img/user-fr_gs_metrics_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+
+## Télécharger l'indicateur
+
+En haut à droite du graphique, vous pouvez voir trois petits points. Cliquez dessus pour ouvrir le menu de téléchargement.
+
+Choisissez entre télécharger une image du graphique ou les valeurs de l'indicateur dans le format que vous souhaitez (Excel ou CSV).
+
+Vous devrez [créer un compte](https://www.gostatit.com/sign) (gratuit et sans aucune obligation) pour télécharger les données. Vous pouvez voir dans la section suivante comment s'y prendre.
+
+![xrate/daily](/img/user-fr_gs_metrics_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+
+## Analyser l'indicateur
+
+Si vous souhaitez analyser l'indicateur pour mieux comprendre les tendances dans le temps, cliquez sur l'icône à droite du menu de téléchargement.
+
+Nous revenons plus en détail sur les opérations possibles dans le guide de référence de Statit.
 
 
-### **Download**
+## Prochaines étapes
 
-You might need to work with this metric to compare it with other long-term trends, transform it or present it in a chart.
+Bien joué, vous avez visualisé le taux de change quotidien du [Yuan Chinois contre l'Euro](https://www.gostatit.com/xrate/daily/eur/cny).
 
-Click on the download icon on the right hand side and select the format you are interested in.
+Vous pouvez essayer d'aller visualiser d'autres taux de change en cliquant sur les liens gris en haut à gauche de l'écran.
 
-
-
-## **Next steps**
-
-You have now learnt about the basics of Statit: its organisation and how to navigate collections.
-
-If you would like to access metrics in Excel, go [here](/gs/excel.md)
+Sinon, nous allons maintenant vous montrer les [graphiques](charts.md) dans une collection.

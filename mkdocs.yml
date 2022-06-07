@@ -2,16 +2,18 @@ site_name: Guide utilisateur
 nav:
     - Bienvenue: index.md
     - Démarrer:
-      - Les espaces & collections: gs/org.md
+      - Les espaces & collections: gs/index.md
       - Les indicateurs: gs/metrics.md
       - Les tableaux et graphiques: gs/charts.md
     - Suivre les indicateurs:
-      - Favoris & alertes: favs/favs.md
-      - Tableaux de bord: favs/dashboard.md
+      - Le compte utilisateur: favs/index.md
+      - Favoris & alertes: favs/favs-alerts.md
+      - Tableaux de bord: favs/dashboards.md
     - Utiliser Statit dans Excel:
-      - Introduction: excel/index.md
-      - Installer le complément Excel: excel/installation.md
-      - Consulter des indicateurs: excel/consultation.md
+      - Installer le complément Excel: excel/index.md
+      - Accéder aux indicateurs: excel/access.md
+    - Référence:
+      - Introduction: reference/index.md
 theme:
   name: material
   palette:
