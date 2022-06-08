@@ -30,6 +30,4 @@ En bas du graphique, vous pouvez cliquer sur "Sources". Cela vous présentera le
 
 Bravo, vous avez visualisé un indicateur et un tableau de bord au sein de l'espace public [xrate](https://www.gostatit.com/xrate) et de la collection [xrate/daily](https://www.gostatit.com/xrate/daily).
 
-Vous pouvez maintenant visiter les autres espaces publics sur Statit [ici](https://www.gostatit.com/public).
-
-Sinon, dirigez-vous vers la section [Suivre les indicateurs](/favs/index.md) pour comprendre comment vous permettre de configurer votre espace.
+Nous allons maintenant vous expliquer ce que c'est qu'un [espace de travail](/gs/workspaces.md).

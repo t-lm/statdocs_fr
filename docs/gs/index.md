@@ -1,60 +1,91 @@
-# Les espaces et les collections
+# Un espace de partage d'indicateurs
 
-## Espaces de travail
+Statit est un **outil** qui permet aux **équipes et organisations** de **partager facilement leurs indicateurs importants**.
 
-Statit permet aux organisations de stocker et de partager leurs indicateurs avec leurs collaborateurs dans des **espaces de travail**.
+Sur Statit, on partage donc avant tout des **indicateurs** 👍.
 
-Sur Statit, **la plupart des espaces sont privés**, uniquement accessibles aux membres. Néanmoins, il existe un certain nombre d'espaces publics contenant des indicateurs de référence pour tous.
+## Un indicateur, qu'est ce que c'est?
 
-Vous pouvez voir quelques espaces "publics" ci-dessous:
+Qu'est ce qu'on appelle indicateur? **Un indicateur, c'est la mesure de quelque chose répétée dans le temps**.
 
-- [Taux de change internationaux](https://www.gostatit.com/xrate)
-- [Indicateurs sur les marchés agricoles européens](https://www.gostatit.com/eu-agri)
-- [Suivi des températures et précipitations européennes](https://www.gostatit.com/clim)
-- Liste complète [ici](https://www.gostatit.com/public)
+Par exemple, la mesure quotidienne de la température à Copenhague, l'indice mensuel de confiance dans le bâtiment en France, les exportations hebdomadaires de blé en Roumanie, tous sont des **indicateurs**.
 
-En haut de l'espace de travail, vous trouverez une présentation brève de ce que l'espace contient et à qui il s'adresse.
+Sur Statit, chaque **indicateur a un identifiant qui le représente**. Un identifiant, c'est comme une adresse sur Internet. Pour chaque indicateur, il y a un seul lien.
 
-![Espace de travail](/img/user-fr_gs_org_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+Sautons le pas avec les indicateurs que nous avons décrits ci-dessus:
+
+- [Température dans la région de Copenhague](https://www.gostatit.com/clim/copernicus-r/daily/dk01/temp/real)
+- [Indice de climat des affaires dans le bâtiment en France](https://www.gostatit.com/bdfconj/consn/bat/total/ica/cvs_3m)
+- [Exportations de fromage en Allemagne](https://www.gostatit.com/comext/nc4/2/de/0406/1000/q1)
+
+**Cliquez sur un des liens ci-dessus** pour visualiser un indicateur.
 
 
-## Collections
+## Visualiser l'indicateur
 
-### Rôle des collections
+Nous avons cliqué sur le premier **indicateur de température**.
 
-A l'intérieur des espaces de travail, les indicateurs sont organisés en **collections**.
+![xrate/daily](/img/user-fr_gs_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Les collections contiennent des **indicateurs de même nature**, provenant d'une même source ou traitant du même sujet. Les collections peuvent aussi contenir des **graphiques**.
+Pour l'instant, oubliez ce qui est indiqué tout en haut et concentrons nous sur:
 
-Dans tous les espaces, certaines collections sont publiques accessibles à tous les membres, d'autres sont privées, accessibles uniquement aux membres autorisés.
+- le **nom de l'indicateur**: Average daily temperature for Hovedstaden region (Danemark)
+- la **description de l'indicateur** - c'est en anglais ici (Average daily ...)
 
-Voilà plusieurs liens vers les collections de l'espace [xrate](https://www.gostatit.com/xrate) vu ci-dessus:
+Ensuite, il y a des **informations importantes sur l'indicateur**:
 
-- [Taux de change internationaux quotidiens](https://www.gostatit.com/xrate/daily)
-- [Taux de change internationaux hebdomadaires](https://www.gostatit.com/xrate/weekly)
-- [Taux de change internationaux mensuels](https://www.gostatit.com/xrate/monthly)
+- la **fréquence de mise à jour** (jour, semaine, mois ..),
+- l'**unité** (kilogrammes, degrés celcius ...)
+- les **sources**
+- **plusieurs dates**: début, fin et dernière mise à jour
 
-### Présentation de la collection
+En dessous, concentrez-vous sur le graphique. Si vous passez votre curseur dessus, vous pourrez visualiser pour certaines dates la valeur de l'indicateur.
 
-Regardons plus en détail la première collection en cliquant sur le premier lien:
+Finalement dans le bas du graphique, il y a une zone de couleur grise. Cela vous permet de sélectionner une zone de temps particulière.
 
-![Collection](/img/user-fr_gs_org_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+Essayez par exemple de sélectionner l'année 2021 en tirant la "poignée gauche" vers la droite.
 
-Juste en dessous du nom de l'espace de travail en haut à gauche se trouve l'identifiant de la collection "xrate/daily". Il est utile et nous l'utiliserons toujours pour référencer la collection.
+![xrate/daily](/img/user-fr_gs_index_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Cliquer sur cet identifiant en haut à gauche nous permettra toujours de naviguer au sein de l'espace de travail, des collections et plus tard des indicateurs.
 
-Un petit peu en dessous, vous trouverez le nom de la collection (ici "International daily exchange rates").
+## Lire les valeurs
 
-Passons sur les autres informations pour l'instant et concentrons-nous sur les onglets un peu en dessous.
+Vous pouvez cliquer sur les petites icônes graphiques juste au dessus du graphique pour soit obtenir une vue graphique avec des barres, soit obtenir une vue directe des valeurs.
 
-### Sections
+![xrate/daily](/img/user-fr_gs_metrics_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Une collection contient toujours trois ou quatre sections:
+Vous pouvez ensuite trier les valeurs par date ou par valeur (du plus petit au plus grand) en cliquant sur les petites flèches au dessus des colonnes.
 
-- Description - là où est décrite la collection - son objectif, ce qu'elle contient, comment elle est organisée
-- Indicateurs - là où sont stockés les indicateurs - organisés comme des fichiers sur un ordinateur
-- Graphiques - c'est là que dans certaines collections vous pourrez trouver des graphiques et des tableaux de bord créés par l'auteur de la collection
-- Questions - un endroit pour échanger sur la collection
 
-Naviguons maintenant pour voir les [indicateurs](metrics.md) de cette collection
+## Télécharger l'indicateur
+
+En haut à droite du graphique, vous pouvez voir trois petits points. Cliquez dessus pour ouvrir le menu de téléchargement.
+
+Choisissez entre télécharger une image du graphique ou les valeurs de l'indicateur dans le format que vous souhaitez (Excel ou CSV).
+
+Vous devrez [créer un compte](https://www.gostatit.com/sign) (gratuit et sans aucune obligation) pour télécharger les données. Vous pouvez voir dans la [section suivante](/favs) comment s'y prendre.
+
+![xrate/daily](/img/user-fr_gs_metrics_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+
+
+## Analyser l'indicateur
+
+Si vous souhaitez analyser l'indicateur pour mieux comprendre les tendances dans le temps, cliquez sur l'icône à droite du menu de téléchargement.
+
+Nous revenons plus en détail sur les opérations possibles dans le guide de référence de Statit.
+
+
+## Privé ou public
+
+Vous avez remarqué que vous avez pu consulté les indicateurs au-dessus sans avoir besoin de créer un compte.
+
+En effet, Statit héberge un certain nombre d'indicateurs "publics" accessibles à tous, sans avoir besoin de se connecter. Nous nous appuierons sur ces indicateurs dans le guide "utilisateur".
+
+Lorsqu'une organisation ou une équipe partage des indicateurs, ces indicateurs seront privés, uniquement accessibles aux membres.
+
+
+## Prochaines étapes
+
+Bien joué, vous avez visualisé un ou plusieurs indicateur(s).
+
+Nous allons maintenant vous expliquer ce que sont les [collections](collections.md).

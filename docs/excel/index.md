@@ -41,3 +41,8 @@ Une fenêtre contextuelle s’ouvre à droite de votre feuille de calcul. Rensei
 Vous retrouverez votre nom d'utilisateur et votre clé API dans la partie "Mon compte" à laquelle vous accédez par le menu en haut à droite de l'application quand vous êtes connecté.
 
 ![Installer complément](/img/user-fr_excel_index_5.png){: style="width:350px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
+
+
+## Prochaines étapes
+
+Ca y est. Vous avez tout configuré. C'est le moment d'accéder aux indicateurs dans la [prochaine section](/access.md)

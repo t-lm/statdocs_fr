@@ -1,18 +1,19 @@
 site_name: Guide utilisateur
 nav:
     - Bienvenue: index.md
-    - Démarrer:
-      - Les espaces & collections: gs/index.md
-      - Les indicateurs: gs/metrics.md
-      - Les tableaux et graphiques: gs/charts.md
-    - Suivre les indicateurs:
+    - Démarrer simplement:
+      - Les indicateurs: gs/index.md
+      - Les collections: gs/collections.md
+      - Graphiques et tableaux: gs/charts.md
+      - Espaces de travail: gs/workspaces.md
+    - Enregistrer ses indicateurs:
       - Le compte utilisateur: favs/index.md
       - Favoris & alertes: favs/favs-alerts.md
       - Tableaux de bord: favs/dashboards.md
     - Utiliser Statit dans Excel:
       - Installer le complément Excel: excel/index.md
       - Accéder aux indicateurs: excel/access.md
-    - Référence:
+    - Guide de référence:
       - Introduction: reference/index.md
 theme:
   name: material
