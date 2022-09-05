@@ -1,22 +1,22 @@
-# Un espace de partage d'indicateurs
+# Une bibliothèque d'indicateurs
 
-Statit est un **outil** qui permet aux **équipes et organisations** de **partager facilement leurs indicateurs importants**.
+Statit permet aux **équipes, organisations ou communautés d'analystes** d'**organiser et de partager facilement leurs indicateurs importants**.
 
-Sur Statit, on partage donc avant tout des **indicateurs** 👍.
+## Les indicateurs
 
-## Un indicateur, qu'est ce que c'est?
+**Sur Statit, un indicateur mesure quelque chose au cours du temps**.
 
-Qu'est ce qu'on appelle indicateur? **Un indicateur, c'est la mesure de quelque chose répétée dans le temps**.
+Par exemple, la température moyenne quotidienne à Copenhague, l'indice mensuel de confiance dans le bâtiment en France, les volumes d'exportations hebdomadaires de blé en Roumanie, tous sont des **indicateurs**.
 
-Par exemple, la mesure quotidienne de la température à Copenhague, l'indice mensuel de confiance dans le bâtiment en France, les exportations hebdomadaires de blé en Roumanie, tous sont des **indicateurs**.
+**Sur Statit, nous utiliserons le terme 'indicateurs'** car c'est un terme utilisé dans le langage courant. Certains parlent de séries temporelles, de séries statistiques, de statistiques ou d'indices ... Il n'y a pas de différence pour nous.
 
-Sur Statit, chaque **indicateur a un identifiant qui le représente**. Un identifiant, c'est comme une adresse sur Internet. Pour chaque indicateur, il y a un seul lien.
+Sur Statit, chaque **indicateur a un identifiant unique**. Un identifiant est comme une adresse sur Internet. Chaque indicateur a un seul lien sur Statit.
 
 Sautons le pas avec les indicateurs que nous avons décrits ci-dessus:
 
-- [Température dans la région de Copenhague](https://www.gostatit.com/clim/copernicus-r/daily/dk01/temp/real)
+- [Température moyenne dans la région de Copenhague](https://www.gostatit.com/clim/copernicus-r/daily/dk01/temp/real)
 - [Indice de climat des affaires dans le bâtiment en France](https://www.gostatit.com/bdfconj/consn/bat/total/ica/cvs_3m)
-- [Exportations de fromage en Allemagne](https://www.gostatit.com/comext/nc4/2/de/0406/1000/q1)
+- [Exportations hebdomadaires de blé en Roumanie](https://www.gostatit.com/eu-agri/cereals_trade_weekly/exports/ro/wheat-common/weekly)
 
 **Cliquez sur un des liens ci-dessus** pour visualiser un indicateur.
 
@@ -27,7 +27,7 @@ Nous avons cliqué sur le premier **indicateur de température**.
 
 ![xrate/daily](/img/user-fr_gs_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Pour l'instant, oubliez ce qui est indiqué tout en haut et concentrons nous sur:
+Vous pouvez voir:
 
 - le **nom de l'indicateur**: Average daily temperature for Hovedstaden region (Danemark)
 - la **description de l'indicateur** - c'est en anglais ici (Average daily ...)
@@ -39,7 +39,7 @@ Ensuite, il y a des **informations importantes sur l'indicateur**:
 - les **sources**
 - **plusieurs dates**: début, fin et dernière mise à jour
 
-En dessous, concentrez-vous sur le graphique. Si vous passez votre curseur dessus, vous pourrez visualiser pour certaines dates la valeur de l'indicateur.
+En dessous, vous pouvez visualiser le graphique. Si vous passez votre curseur, vous pourrez accéder aux valeurs de l'indicateur.
 
 Finalement dans le bas du graphique, il y a une zone de couleur grise. Cela vous permet de sélectionner une zone de temps particulière.
 

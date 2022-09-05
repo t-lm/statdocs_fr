@@ -87,6 +87,6 @@ Si vous souhaitez supprimer ce tableau de bord, commencez par supprimer chaque g
 
 Vous avez maintenant appris à créer vos propres tableaux et graphiques.
 
-Dans le [guide de référence](/reference/index.md), vous trouverez toutes les informations pour créer les différents types de graphiques dont vous avez besoin.
+Si vous cherchez à accéder aux indicateurs directement dans Excel, rendez-vous dans le [guide de démarrage](/excel/index.md)
 
-Si vous cherchez à utiliser les indicateurs de Statit directement dans Excel, rendez-vous dans le [guide de démarrage](/excel/index.md)
+Si vous cherchez à partager des indicateurs, rendez-vous dans le [guide de partage](/excel/index.md)
