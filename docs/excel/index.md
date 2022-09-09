@@ -1,6 +1,6 @@
 # Le complément Excel
 
-Si vous souhaitez utiliser les indicateurs dans Microsoft Excel, vous pouvez utiliser un complément qui vous permettra de télécharger les indicateurs directement dans Excel.
+Si vous souhaitez utiliser les séries dans Microsoft Excel, vous pouvez utiliser un complément qui vous permettra de télécharger les séries directement dans Excel.
 
 ## Connexion au compte
 
@@ -45,4 +45,4 @@ Vous retrouverez votre nom d'utilisateur et votre clé API dans la partie "Mon c
 
 ## Prochaines étapes
 
-Ca y est. Vous avez tout configuré. C'est le moment d'accéder aux indicateurs dans la [prochaine section](/access.md)
+Ca y est. Vous avez tout configuré. C'est le moment d'accéder aux séries dans la [prochaine section](/access.md)

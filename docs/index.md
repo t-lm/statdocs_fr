@@ -1,15 +1,17 @@
 # Bienvenue
 
-Bonjour, bienvenue sur le **guide utilisateur** de Statit.
+Bonjour, bienvenue sur le **guide utilisateur**.
 
-Ce guide va vous permettre ce qu'est Statit, comment l'outil fonctionne et comment accéder aux indicateurs sur Statit. Si vous recherchez le guide pour publier des indicateurs, c'est [ici](http://helppub_fr.gostatit.com)
+Statit est une plateforme de partage de séries temporelles. Ce guide va vous permettre de découvrir la plateforme et comment accéder aux séries.
+
+Si vous êtes déjà familier avec tout cela et souhaitez publier des séries, le guide est [ici](http://helppub_fr.gostatit.com)
 
 Le guide est organisé en **trois parties**:
 
-* [**Démarrer simplement**](gs/index.md) - comprendre comment Statit fonctionne et accéder aux indicateurs
-* [**Enregistrer ses indicateurs**](favs/index.md) - créer un compte et enregistrer ses indicateurs favoris
-* [**Utiliser Statit dans Excel**](excel/index.md) - utiliser Statit directement dans Excel
+* [**Démarrer**](gs/index.md) - comprendre comment Statit fonctionne et accéder aux séries
+* [**Suivre des séries**](favs/index.md) - créer un compte, enregistrer ses séries favorites, créer des alertes
+* [**Utiliser Excel**](excel/index.md) - accéder aux séries directement dans Excel
 
-**Bon courage dans la prise en main**. N'hésitez pas à [**nous écrire**](mailto:hi@gostatit.com) pour toute question ou remarque.
+**Bon démarrage**. N'hésitez pas à [**nous écrire**](mailto:help@gostatit.com) pour toute question.
 
 A bientôt ✌️

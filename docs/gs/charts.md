@@ -1,33 +1,34 @@
-# Les tableaux et graphiques
+# Les graphiques
 
-Les collections contiennent également des tableaux et des graphiques.
+Certaines collections peuvent contenir des graphiques.
 
-Les tableaux, pour tableaux de bord, rassemblent plusieurs graphiques au même endroit.
+Les graphiques sont une manière utile de présenter les séries dans certains cas. Ils sont organisés au sein de 'tableaux' (tableaux de bord).
 
 Retournez sur la page d'accueil de la collection [xrate/daily](https://www.gostatit.com/xrate/daily) et cliquez sur l'onglet [GRAPHIQUES](https://www.gostatit.com/xrate/daily?tab=charts).
 
-Vous verrez plusieurs tableaux de bord qui s'affichent: americas, asia-pac et emea. Ce sont les noms de tableaux régionaux qui rassemblent plusieurs taux de change de pays de ces régions.
-
-Cliquez sur le tableau [asia-pac](https://www.gostatit.com/i/xrate/daily/asia-pac).
+Plusieurs tableaux s'affichent: americas, asia-pac et emea. Cliquez sur [asia-pac](https://www.gostatit.com/i/xrate/daily/asia-pac).
 
 ## Le tableau
 
-Le tableau est composé d'un résumé au début et de plusieurs graphiques dans l'ordre. Sur ce tableau, vous verrez un résumé des principales tendances sur les taux de change de la zone Asie et les principaux graphiques de la zone.
+Le tableau commence avec un texte suivi de plusieurs graphiques.
+
+Sur ce tableau, vous verrez un résumé des évolutions des taux de change de la zone Asie contre l'Euro et les principaux graphiques de la zone.
 
 ![xrate/daily](/img/user-fr_gs_charts_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Ce tableau de bord et mis à jour quotidiennement par Statit.
-
+Ce tableau est mis à jour quotidiennement.
 
 ## Le graphique
 
-En haut à droite, vous pouvez cliquer sur les trois points pour télécharger le graphique (image ou données). Vous aurez besoin de créer un compte pour faire cela.
+En haut à droite de chaque graphique, vous pouvez cliquer sur le bouton avec les 'trois points' pour télécharger le graphique (image ou données). Vous aurez besoin d'avoir un un compte pour cela ([ici](https://www.gostatit.com/sign)).
 
-En bas du graphique, vous pouvez cliquer sur "Sources". Cela vous présentera les indicateurs utilisés pour construire le graphique
+En bas du graphique, vous pouvez cliquer sur "Sources" pour visualiser les séries utilisées pour construire le graphique. Cliquez sur une des séries pour voir les données originales.
+
+Finalement, vous pouvez ajouter ce graphique à un tableau de bord "personnel". Nous parlerons de cela dans la prochaine section.
 
 
 ## Prochaines étapes
 
-Bravo, vous avez visualisé un indicateur et un tableau de bord au sein de l'espace public [xrate](https://www.gostatit.com/xrate) et de la collection [xrate/daily](https://www.gostatit.com/xrate/daily).
+Bravo, vous avez visualisé une série et un tableau de bord public [xrate](https://www.gostatit.com/xrate) dans la collection [xrate/daily](https://www.gostatit.com/xrate/daily).
 
-Nous allons maintenant vous expliquer ce que c'est qu'un [espace de travail](/gs/workspaces.md).
+Nous allons maintenant expliquer ce qu'est un [compte](/gs/accounts.md).

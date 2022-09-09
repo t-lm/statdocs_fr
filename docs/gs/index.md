@@ -1,47 +1,47 @@
-# Une bibliothèque d'indicateurs
+# Une plateforme de séries temporelles
 
-Statit permet aux **équipes, organisations ou communautés d'analystes** d'**organiser et de partager facilement leurs indicateurs importants**.
+Statit est une plateforme de séries temporelles.
 
-## Les indicateurs
+## Les séries
 
-**Sur Statit, un indicateur mesure quelque chose au cours du temps**.
+**Les séries temporelles réprésentent une valeur dans le temps**.
 
-Par exemple, la température moyenne quotidienne à Copenhague, l'indice mensuel de confiance dans le bâtiment en France, les volumes d'exportations hebdomadaires de blé en Roumanie, tous sont des **indicateurs**.
+On trouve des séries temporelles dans de nombreux domaines: économie, finance, entreprise, sciences sociales et environnementales ...
 
-**Sur Statit, nous utiliserons le terme 'indicateurs'** car c'est un terme utilisé dans le langage courant. Certains parlent de séries temporelles, de séries statistiques, de statistiques ou d'indices ... Il n'y a pas de différence pour nous.
+Par exemple, la température moyenne quotidienne à Copenhague, l'indice mensuel de confiance dans le bâtiment en France, les volumes d'exportations hebdomadaires de blé en Roumanie sont des séries.
 
-Sur Statit, chaque **indicateur a un identifiant unique**. Un identifiant est comme une adresse sur Internet. Chaque indicateur a un seul lien sur Statit.
+**Sur Statit, nous utiliserons le terme 'séries'** à la place de séries temporelles pour nous simplifier la vie.
 
-Sautons le pas avec les indicateurs que nous avons décrits ci-dessus:
+Statit n'héberge que des séries et chaque **série a un identifiant unique** sur la plateforme.
 
-- [Température moyenne dans la région de Copenhague](https://www.gostatit.com/clim/copernicus-r/daily/dk01/temp/real)
-- [Indice de climat des affaires dans le bâtiment en France](https://www.gostatit.com/bdfconj/consn/bat/total/ica/cvs_3m)
-- [Exportations hebdomadaires de blé en Roumanie](https://www.gostatit.com/eu-agri/cereals_trade_weekly/exports/ro/wheat-common/weekly)
+Voilà trois séries avec leur identifiant:
 
-**Cliquez sur un des liens ci-dessus** pour visualiser un indicateur.
+- Température moyenne dans la région de Copenhague: [clim/copernicus-r/daily/dk01/temp/real](https://www.gostatit.com/clim/copernicus-r/daily/dk01/temp/real)
+- Indice de climat des affaires dans le bâtiment en France: [bdfconj/consn/bat/total/ica/cvs_3m](https://www.gostatit.com/bdfconj/consn/bat/total/ica/cvs_3m)
+- Exportations hebdomadaires de blé en Roumanie: [eu-agri/cereals_trade_weekly/exports/ro/wheat-common/weekly](https://www.gostatit.com/eu-agri/cereals_trade_weekly/exports/ro/wheat-common/weekly)
 
-
-## Visualiser l'indicateur
-
-Nous avons cliqué sur le premier **indicateur de température**.
+**Cliquez sur le premier lien** pour accéder à la série.
 
 ![xrate/daily](/img/user-fr_gs_index_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Vous pouvez voir:
 
-- le **nom de l'indicateur**: Average daily temperature for Hovedstaden region (Danemark)
-- la **description de l'indicateur** - c'est en anglais ici (Average daily ...)
+## La description
 
-Ensuite, il y a des **informations importantes sur l'indicateur**:
+Sur la page de la série, vous pouvez lire:
 
-- la **fréquence de mise à jour** (jour, semaine, mois ..),
-- l'**unité** (kilogrammes, degrés celcius ...)
+- le **nom de la série**: Average daily temperature for Hovedstaden region (Danemark)
+- la **description** - Average daily temperature for Hovedstaden region (Danemark) ...
+
+Et en dessous:
+
+- la **fréquence des observations**: jour, semaine, mois, trimestre ou année
+- l'**unité**: kilogramme, degré Celsius ...
 - les **sources**
-- **plusieurs dates**: début, fin et dernière mise à jour
+- les dates de début, de fin et de dernière mise à jour
 
-En dessous, vous pouvez visualiser le graphique. Si vous passez votre curseur, vous pourrez accéder aux valeurs de l'indicateur.
+En dessous, vous pouvez visualiser la série. Si vous passez votre curseur sur le graphique, vous pourrez voir aux valeurs.
 
-Finalement dans le bas du graphique, il y a une zone de couleur grise. Cela vous permet de sélectionner une zone de temps particulière.
+Finalement dans le bas du graphique, la zone de couleur grise vous permet de sélectionner une période particulière.
 
 Essayez par exemple de sélectionner l'année 2021 en tirant la "poignée gauche" vers la droite.
 
@@ -50,42 +50,41 @@ Essayez par exemple de sélectionner l'année 2021 en tirant la "poignée gauche
 
 ## Lire les valeurs
 
-Vous pouvez cliquer sur les petites icônes graphiques juste au dessus du graphique pour soit obtenir une vue graphique avec des barres, soit obtenir une vue directe des valeurs.
+Vous pouvez cliquer sur les petites icônes au dessus du graphique à gauche pour obtenir une vue graphique avec des barres ou avec des valeurs.
 
 ![xrate/daily](/img/user-fr_gs_metrics_3.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Vous pouvez ensuite trier les valeurs par date ou par valeur (du plus petit au plus grand) en cliquant sur les petites flèches au dessus des colonnes.
+Vous pouvez ensuite trier les valeurs par date ou par valeur  en cliquant sur les flèches au dessus des colonnes.
 
 
-## Télécharger l'indicateur
+## Télécharger la série
 
-En haut à droite du graphique, vous pouvez voir trois petits points. Cliquez dessus pour ouvrir le menu de téléchargement.
+En haut à droite du graphique, vous pouvez voir un bouton avec une flèche vers le bas. Cliquez dessus.
 
-Choisissez entre télécharger une image du graphique ou les valeurs de l'indicateur dans le format que vous souhaitez (Excel ou CSV).
+Vous pouvez télécharger le graphique ou les valeurs de la série dans le format que vous souhaitez (Excel ou CSV).
 
-Vous devrez [créer un compte](https://www.gostatit.com/sign) (gratuit et sans aucune obligation) pour télécharger les données. Vous pouvez voir dans la [section suivante](/favs) comment s'y prendre.
+Vous devrez [créer un compte](https://www.gostatit.com/sign) pour télécharger les données. C'est gratuit et prend 2 minutes. [Allez y!!](https://www.gostatit.com/sign)
 
-![xrate/daily](/img/user-fr_gs_metrics_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
-
-
-## Analyser l'indicateur
-
-Si vous souhaitez analyser l'indicateur pour mieux comprendre les tendances dans le temps, cliquez sur l'icône à droite du menu de téléchargement.
-
-Nous revenons plus en détail sur les opérations possibles dans le guide de référence de Statit.
+![xrate/daily](/img/user-fr_gs_metrics_4.png){: style="width:400px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 
-## Privé ou public
+## Analyser la série simplement
 
-Vous avez remarqué que vous avez pu consulté les indicateurs au-dessus sans avoir besoin de créer un compte.
+Si vous souhaitez faire des premières analyses sur la série pour mieux mettre en perspective les valeurs, cliquez sur l'icône à droite du menu de téléchargement.
 
-En effet, Statit héberge un certain nombre d'indicateurs "publics" accessibles à tous, sans avoir besoin de se connecter. Nous nous appuierons sur ces indicateurs dans le guide "utilisateur".
+Vous pouvez aggréger les valeurs sur une différente période de temps ou réaliser quelques transformations (observer les variations entre valeurs).
 
-Lorsqu'une organisation ou une équipe partage des indicateurs, ces indicateurs seront privés, uniquement accessibles aux membres.
 
+## Public ou privé
+
+Vous avez remarqué probablement que vous avez pu consulter la série au-dessus sans avoir besoin de créer un compte ou de vous connecter.
+
+Statit héberge à la fois des séries "publiques" accessibles à tous sur Internet et des séries privées uniquement accessibles à un utilisateur ou une équipe.
+
+Nous nous appuierons sur les séries publiques dans le guide utilisateur.
 
 ## Prochaines étapes
 
-Bien joué, vous avez visualisé un ou plusieurs indicateur(s).
+Bien joué, vous avez visualisé une ou plusieurs séries.
 
-Nous allons maintenant vous expliquer ce que sont les [collections](collections.md).
+Nous allons maintenant vous expliquer comment les séries sont organisées dans des [collections](collections.md).

@@ -1,63 +1,61 @@
 # Favoris et alertes
 
-Statit permet à tout le monde de suivre et retrouver les indicateurs ou graphiques importants facilement.
+Statit vous permet d'enregistrer et suivre les séries dont vous avez besoin facilement.
 
 ## Suivre une collection
 
 Pour commencer, nous allons suivre une collection.
 
-Rendez-vous dans la collection [Pink sheet de la Banque Mondiale](https://www.gostatit.com/world-bank/pink). C'est une collection publique qui permet de suivre les tendances des prix mondiaux des matières premières tous les mois.
+Rendez-vous dans la collection [Pink sheet](https://www.gostatit.com/world-bank/pink) de la Banque Mondiale. C'est une collection publique qui contient les indices de prix mensuels des commodités de la Banque mondiale.
 
-En haut à droite, vous pouvez voir un bouton "Suivre". Cliquez dessus, trois choix apparaissent:
+En haut à droite de la page, vous pouvez voir l'icône 🖤. Trois options sont possibles:
 
-- Pas d'alerte - vous ne recevrez pas d'alerte lorsque la collection sera mise à jour
+- Pas d'alerte - vous ne recevrez pas d'alerte pour cette collection
 - Alerte à la mise à jour - vous recevrez une alerte par email dès que la collection sera mise à jour
-- Alerte une fois par semaine - vous recevrez une alerte par email une fois par semaine le Jeudi si la collection a été mise à jour lors de la semaine précédente
+- Alerte une fois par semaine - vous recevrez une alerte par email une fois par semaine le Jeudi si la collection a été mise à jour la semaine précédente
 
 ![Collection favori](/img/user-fr_favs_favs-alerts_0.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Cliquez sur "Pas d'alerte". Voilà vous suivez désormais la collection. Pas d'inquiétude, vous pourrez vous désabonner facilement après.
+Cliquez sur une des options d'alerte. Vous suivez désormais la collection.
 
 
-## Suivre un indicateur
+## Suivre une série
 
-Nous allons maintenant suivre un indicateur.
+Rendez-vous sur les [prix de référence des oranges](https://www.gostatit.com/world-bank/pink/prices/agri/orange/eur) selon la Banque Mondiale.
 
-Rendez-vous sur les [prix mondiaux des oranges en Euro/ Kilo](https://www.gostatit.com/world-bank/pink/prices/agri/orange/eur) selon la Banque Mondiale.
+En haut à droite, vous retrouvez l'icône 🖤. Il y a deux lignes en plus:
 
-En haut à droite, vous retrouvez le menu "Suivre" comme pour la collection. Il y a deux lignes en plus.
+- La première est "Alerte avec seuil". Cela vous permet de définir un critère d'alerte supplémentaire. Vous ne serez alertés que si la dernière valeur de la série remplit le critère que vous définissez.
 
-La première est "Alerte avec seuil". Cela vous permet de définir un critère d'alerte supplémentaire. Vous ne serez alertés que si la dernière valeur de l'indicateur est supérieure ou inférieure au nombre que vous définissez.
-
-La second est "Ajouter à un tableau personnel". Nous y reviendrons dans la prochaine section.
+- La second est "Ajouter à un tableau personnel". Nous y reviendrons dans la prochaine section.
 
 Cliquez sur "Alerte à la mise à jour". Nous modifierons cela un petit peu plus tard.
 
 
-## Visualiser et modifier les favoris
+## Accéder et modifier les favoris
 
 Vous avez maintenant créé deux favoris.
 
-Retournons sur la page d'accueil de votre compte pour les visualiser. Allez dans le menu en haut à droite de l'écran avec nom d'utilisateur et cliquez sur "Accueil".
+Vous devez retourner sur votre page d'accueil pour y accéder. Cliquez sur votre nom d'utilisateur en haut à droite de l'écran et choisissez "Accueil".
 
-Cliquez ensuite sur "Favoris". La collection et l'indicateur que vous avez enregistrés sont là.
+Cliquez ensuite sur "Favoris". Vos favoris (collection et série) sont là.
 
 ![Favoris](/img/user-fr_favs_favs-alerts_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Si vous souhaitez mettre à jour l'alerte ou la supprimer, vous pouvez cliquer sur la flèche à droite de chaque favori.
+Si vous souhaitez mettre à jour l'alerte ou la supprimer, vous pouvez cliquer sur le bouton à droite de chaque favori.
 
 
 ## Suivre un tableau de bord
 
-Finalement, il est possible de suivre des tableaux de bord.
+Enfin, il est possible de suivre des tableaux de bord.
 
 Rendez-vous sur [le tableau des indices de prix mondiaux des matières premières](https://www.gostatit.com/i/world-bank/pink/summary) selon la Banque Mondiale.
 
-En haut à droite, vous pouvez cliquer sur "Suivre" de la même manière que les collections et les indicateurs.
+En haut à droite, vous pouvez cliquer sur le 🖤 de la même manière que les collections et les séries.
 
 
 ## Prochaines étapes
 
-Vous avez vu comment créer des favoris sur les collections, les indicateurs et les tableaux de bords existants.
+Vous avez vu comment créer des favoris sur les collections, les séries et les tableaux de bords existants.
 
-Pour voir comment créer vos propres graphiques et tableaux de bord pour suivre ce qui vous intéresse de manière encore plus efficace, c'est [ici](dashboards.md)
+Pour voir comment créer vos propres graphiques et tableaux pour suivre ce qui vous intéresse de manière encore plus efficace, c'est [ici](dashboards.md)

@@ -1,8 +1,6 @@
 # Tableaux de bord
 
-Pour pouvoir suivre encore plus facilement les indicateurs ou graphiques qui vous intéressent, Statit vous permet de les rassembler dans votre propre tableau de bord.
-
-Un tableau de bord est comme une "liste de lecture" sur un service musical. C'est un ensemble d'indicateurs et graphiques qui vous sont propres et que vous pourrez retrouver facilement.
+Pour pouvoir suivre encore plus facilement les séries qui vous intéressent, Statit vous permet de les rassembler dans votre propre tableau de bord.
 
 ## Créer le tableau de bord
 
@@ -10,7 +8,7 @@ Pour commencer, nous allons créer un tableau de bord.
 
 Notre objectif est de créer un tableau de bord pour suivre différents prix de l'énergie au niveau mondial.
 
-Rendez-vous sur la page d'accueil de votre compte, par exemple en cliquant sur "Accueil" en haut à droite de l'écran sur votre nom d'utilisateur.
+Rendez-vous sur la page d'accueil de votre compte en cliquant sur "Accueil" en haut à droite de l'écran sur votre nom d'utilisateur.
 
 Cliquez ensuite sur l'onglet "Tableau", puis sur le bouton "Créer un tableau" juste en dessous.
 
@@ -24,22 +22,25 @@ Cliquez sur "Enregistrer"
 
 ## Ajouter des graphiques
 
+### Premier graphique
+
 Rendons-nous d'abord sur un graphique qui donne les tendances des prix moyens de l'électricité en Europe.
 
 Ce graphique appartient à un tableau de bord public dans l'espace de l'association des gestionnaires de réseau électricité au niveau européen. C'est [ici](https://www.gostatit.com/i/entsoe/da_prices/overview).
 
-En haut à droite du graphique, cliquez sur les trois points. Vous voyez indiqué "Ajouter à un tableau personnel". Cliquez dessus.
+En haut à droite du graphique avec les séries, cliquez sur les trois points. Choisissez "Ajouter à un tableau personnel"
 
 ![Ajouter un graphique](/img/user-fr_favs_dashboards_1.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Un écran vous demande maintenant dans quel tableau de bord il faut ajouter le graphique. Sélectionnez le tableau que vous avez créé avant: "Prix de l'énergie"
+On vous demande maintenant dans quel tableau de bord il faut ajouter le graphique. Sélectionnez celui que vous venez de créer.
 
 ![Ajouter un graphique](/img/user-fr_favs_dashboards_2.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
 Cliquez sur "Enregistrer"
 
+### Second graphique
 
-Ajoutons maintenant un deuxième graphique sur les prix des contrats pétroliers "futures". Allez sur ce [tableau de bord sur l'espace de l'EIA](https://www.gostatit.com/i/eia/petroleum_prices_futures/overview). Descendez sur le deuxième graphique en Euro.
+Ajoutons maintenant un deuxième graphique sur les prix des contrats pétroliers "futures". Allez sur ce [tableau de bord de l'EIA](https://www.gostatit.com/i/eia/petroleum_prices_futures/overview). Choisissez le graphique avec les séries.
 
 Répétez la même manoeuvre que sur le graphique précédent pour l'ajouter à votre tableau de bord.
 
@@ -48,28 +49,28 @@ Répétez la même manoeuvre que sur le graphique précédent pour l'ajouter à 
 
 
 
-## Ajouter des indicateurs
+## Ajouter des séries
 
-Nous venons d'ajouter des graphiques à notre tableau de bord.
+Nous venons d'ajouter deux graphiques à notre tableau de bord.
 
-Nous allons maintenant ajouter un indicateur directement. Allez par exemple voir l'[indicateur de prix du gaz](https://www.gostatit.com/grtgaz/price/fr-trf/eur) publié par l'opérateur de réseau français GRTGaz.
+Nous allons maintenant ajouter une série directement. Allez par exemple voir l'[série de prix du gaz](https://www.gostatit.com/grtgaz/price/fr-trf/daily/eur) publié par l'opérateur de réseau français GRTGaz.
 
-En haut à droite, cliquez sur "Suivre". Et en bas du menu, cliquez sur "Ajouter à un tableau personnel". Et ajouter l'indicateur à votre tableau de bord.
+En haut à droite, cliquez sur le coeur et "Ajouter à un tableau personnel". Choisissez le tableau de bord, le format "Ligne" et enregistrez.
 
 
 ## Modifier les graphiques
 
-Après avoir ajouté l'indicateur, vous êtes redirigés sur votre tableau de bord avec les trois graphiques que vous avez sélectionnés.
+Après avoir ajouté la série, vous êtes redirigés sur votre tableau de bord avec les trois graphiques ci-dessous.
 
-Nous allons modifier le dernier graphique ajouté pour le faire démarrer en 2022. Cliquez en haut à droite du graphique sur les trois points, puis sur "Modifier le graphique".
+Nous allons modifier le dernier graphique ajouté pour le faire démarrer en 2022. Cliquez en haut à droite du graphique sur "Modifier le graphique".
 
 ![Ajouter un graphique](/img/user-fr_favs_dashboards_4.png){: style="width:700px;margin:30px;padding:20px;border:1px solid #ddd;border-radius:5px"}
 
-Dans le champ "Nom", changez le nom pour "Natural Gas Prices - Daily - EUR/ MWh". Ensuite, dans la partie grisée des indicateurs, cliquez sur la flèche à droite sur "Modifier".
+Dans le champ "Nom", changez le nom pour 'Natural Gas Prices - Daily - EUR/ MWh'. Ensuite, dans la section grisée des séries, cliquez sur la flèche tout à droite et choisissez "Modifier".
 
 Dans la cellule "Debut", écrivez "2022-01-01" pour démarrer au 1er Janvier 2022. Cette notation avec dans l'ordre, l'année, le mois sur 2 chiffres et le jour sur 2 chiffres est la norme ISO que nous utilisons sur Statit.
 
-Dans la zone "Couleur", choisissez la couleur qui vous plait.
+Dans le champ 'Couleur', choisissez la couleur qui vous plait.
 
 Cliquez sur Enregistrer. Votre graphique apparaît sur le tableau de bord.
 
@@ -87,6 +88,6 @@ Si vous souhaitez supprimer ce tableau de bord, commencez par supprimer chaque g
 
 Vous avez maintenant appris à créer vos propres tableaux et graphiques.
 
-Si vous cherchez à accéder aux indicateurs directement dans Excel, rendez-vous dans le [guide de démarrage](/excel/index.md)
+Si vous cherchez à accéder aux séries directement dans Excel, rendez-vous dans le [guide de démarrage](/excel/index.md)
 
-Si vous cherchez à partager des indicateurs, rendez-vous dans le [guide de partage](/excel/index.md)
+Si vous cherchez à partager des séries, rendez-vous dans le [guide éditeur](http://helppub_fr.gostatit.com/)
