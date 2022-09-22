@@ -2,14 +2,13 @@ site_name: Guide utilisateur
 nav:
     - Bienvenue: index.md
     - Démarrer:
-      - Séries: gs/index.md
-      - Collections: gs/collections.md
-      - Graphiques: gs/charts.md
-      - Comptes: gs/accounts.md
+      - Accéder aux séries: gs/index.md
+      - Visiter les collections: gs/collections.md
+      - Voir les graphiques: gs/charts.md
+      - Créer un compte: gs/account.md
     - Suivre des séries:
-      - Compte utilisateur: favs/index.md
-      - Favoris & alertes: favs/favs-alerts.md
-      - Tableaux de bord: favs/dashboards.md
+      - Favoris & alertes: perso/index.md
+      - Tableaux de bord: perso/dashboards.md
     - Utiliser Excel:
       - Installer le complément Excel: excel/index.md
       - Accéder aux indicateurs: excel/access.md

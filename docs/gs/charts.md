@@ -4,13 +4,13 @@ Certaines collections peuvent contenir des graphiques.
 
 Les graphiques sont une manière utile de présenter les séries dans certains cas. Ils sont organisés au sein de 'tableaux' (tableaux de bord).
 
-Retournez sur la page d'accueil de la collection [xrate/daily](https://www.gostatit.com/xrate/daily) et cliquez sur l'onglet [GRAPHIQUES](https://www.gostatit.com/xrate/daily?tab=charts).
+Retournez sur la page d'accueil de la collection [xrate/daily](https://www.gostatit.com/xrate/daily) et cliquez sur l'onglet [GraphiqueS](https://www.gostatit.com/xrate/daily?tab=charts).
 
 Plusieurs tableaux s'affichent: americas, asia-pac et emea. Cliquez sur [asia-pac](https://www.gostatit.com/i/xrate/daily/asia-pac).
 
 ## Le tableau
 
-Le tableau commence avec un texte suivi de plusieurs graphiques.
+Le tableau commence avec un résumé suivi de plusieurs graphiques.
 
 Sur ce tableau, vous verrez un résumé des évolutions des taux de change de la zone Asie contre l'Euro et les principaux graphiques de la zone.
 

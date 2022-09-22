@@ -1,8 +1,7 @@
 # Compte
 
-Si vous avez déjà un compte, vous pouvez directement passer à la section [Favoris et Alertes](/favs-alerts.md).
+Si vous avez déjà un compte, vous pouvez directement passer à la section [Favoris et Alertes](/perso).
 
-Sinon, pour créer un compte, suivez les indications ci-dessous.
 
 ## Création du compte
 
@@ -56,4 +55,4 @@ Nous reviendrons sur les autres éléments dans les autres sections.
 
 ## Prochaines étapes:
 
-Dans la prochaine section, nous allons créer des [favoris et alertes](/favs/favs-alerts.md).
+Dans la prochaine section, nous allons créer des [favoris et alertes](/perso).
