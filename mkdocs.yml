@@ -12,6 +12,9 @@ nav:
     - Utiliser Excel:
       - Installer le complément Excel: excel/index.md
       - Accéder aux indicateurs: excel/access.md
+    - Utiliser l'API:
+      - Démarrer: api/index.md
+      - Référence: api/reference.md
 theme:
   name: material
   palette:
